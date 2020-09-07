@@ -1,8 +1,8 @@
 name: IBM Cloud Auto Restart
-
 on:
-  push:
-    branches: [ master ]
+push:
+  branches: [ master ]
+    
   schedule:
     - cron: '0 12 * * FRI'
 
